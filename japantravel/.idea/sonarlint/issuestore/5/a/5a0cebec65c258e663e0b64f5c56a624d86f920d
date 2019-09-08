@@ -1,0 +1,7 @@
+
+jsquid:S001120"FDefine and throw a dedicated exception instead of using a generic one.(‚ò¢ñÿÿÿÿÿ8ôðŽßÆ-
+~squid:S1488+"[Immediately return this expression instead of assigning it to the temporary variable "dto".(ßÂ˜§ûÿÿÿÿ8ôðŽßÆ-
+esquid:S00112$"FDefine and throw a dedicated exception instead of using a generic one.(€ é‘8ôðŽßÆ-
+ksquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ÜÜß…ÿÿÿÿÿ8ôðŽßÆ-
+~squid:S14881"[Immediately return this expression instead of assigning it to the temporary variable "dto".(²±œÈøÿÿÿÿ8ôðŽßÆ-
+jsquid:S00112*"FDefine and throw a dedicated exception instead of using a generic one.(‚ÿü…ûÿÿÿÿ8ôðŽßÆ-

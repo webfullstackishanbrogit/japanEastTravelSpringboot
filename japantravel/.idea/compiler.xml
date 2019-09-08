@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="user" />
+        <module name="experience" />
+        <module name="destinations" />
+        <module name="restaurant" />
+        <module name="review" />
+        <module name="sms" />
+        <module name="files" />
+        <module name="proxy" />
+        <module name="cloud" />
+        <module name="events" />
+        <module name="config" />
+        <module name="email" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud" target="1.8" />
+      <module name="config" target="1.8" />
+      <module name="destinations" target="1.8" />
+      <module name="email" target="1.8" />
+      <module name="events" target="1.8" />
+      <module name="experience" target="1.8" />
+      <module name="files" target="1.8" />
+      <module name="japan.travel" target="1.8" />
+      <module name="proxy" target="1.8" />
+      <module name="restaurant" target="1.8" />
+      <module name="review" target="1.8" />
+      <module name="sms" target="1.8" />
+      <module name="user" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud" options="-parameters" />
+      <module name="config" options="-parameters" />
+      <module name="destinations" options="-parameters" />
+      <module name="email" options="-parameters" />
+      <module name="events" options="-parameters" />
+      <module name="experience" options="-parameters" />
+      <module name="files" options="-parameters" />
+      <module name="proxy" options="-parameters" />
+      <module name="restaurant" options="-parameters" />
+      <module name="review" options="-parameters" />
+      <module name="sms" options="-parameters" />
+      <module name="user" options="-parameters" />
+    </option>
+  </component>
+</project>

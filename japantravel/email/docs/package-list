@@ -1,0 +1,7 @@
+net.epic.email
+net.epic.email.config
+net.epic.email.controller
+net.epic.email.dto
+net.epic.email.entity
+net.epic.email.repository
+net.epic.email.service

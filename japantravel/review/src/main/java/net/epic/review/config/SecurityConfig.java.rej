@@ -1,0 +1,11 @@
+diff a/japantravel/review/src/main/java/net/epic/review/config/SecurityConfig.java b/japantravel/review/src/main/java/net/epic/review/config/SecurityConfig.java	(rejected hunks)
+@@ -92,7 +92,8 @@
+     protected void configure(HttpSecurity http) throws Exception {
+         super.configure(http);
+         http.authorizeRequests()
+-                .antMatchers("/test*","/destination*").hasRole("User") // only user with role user are allowed to access
++//                .antMatchers("/test*","/destination*").hasRole("User")// only user with role user are allowed to access
++                .antMatchers("/test*","/destination*").permitAll()// only user with role user are allowed to access
+                 .anyRequest().permitAll();
+     }
+ }

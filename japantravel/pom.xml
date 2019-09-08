@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2019.
+  ~ This is a property of Epic Lanka Technologies Pvt. Ltd.
+  ~ Any unauthorized reproduction is strictly prohibited.
+  ~ All Rights Reserved.
+  ~ Author: Ayesh Jayasekara (ayesh_j@epiclanka.net)
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>net.epic</groupId>
+    <artifactId>japan.travel</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0</version>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.7.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <modules>
+        <module>config</module>
+        <module>cloud</module>
+        <module>review</module>
+        <module>user</module>
+        <module>proxy</module>
+        <module>files</module>
+        <module>destinations</module>
+        <module>sms</module>
+        <module>email</module>
+        <module>events</module>
+        <module>experience</module>
+        <module>restaurant</module>
+    </modules>
+
+    <organization>
+        <name>EPIC Lanka Technologies Pvt. Ltd</name>
+        <url>https://www.epictechnology.lk/</url>
+    </organization>
+
+    <developers>
+        <developer>
+            <name>Ayesh Jayasekara</name>
+            <email>ayesh_j@epiclanka.net</email>
+            <url>www.ayeshj.online</url>
+            <organization>EPIC</organization>
+            <roles>
+                <role>Lead Engineer</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
+        <spring-boot-admin.version>2.1.6</spring-boot-admin.version>
+        <jaxb-api.version>2.3.1</jaxb-api.version>
+        <jaxb-core.version>2.3.0</jaxb-core.version>
+    </properties>
+
+</project>
